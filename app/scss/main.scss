@@ -1,0 +1,773 @@
+.title {
+  font-family: "PF Din Text Cond Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #35535f;
+}
+.main {
+  overflow: hidden;
+}
+.hide {
+  display: none;
+}
+.bitrix {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 95px;
+    margin-bottom: 47px;
+    @media (max-width: 1260px) {
+      padding: 0 0 0 40px;
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      margin: 0 30px 40px;
+    }
+
+    @media (max-width: 576px) {
+      margin: 0 0 20px;
+      padding: 0 20px;
+    }
+    @media (max-width: 320px) {
+      padding: 0 15px;
+    }
+  }
+  &__about {
+    margin-top: 160px;
+    margin-bottom: 200px;
+
+    width: 100%;
+    max-width: 703px;
+
+    @media (max-width: 1260px) {
+      margin-top: 48px;
+      margin-right: 12px;
+      margin-bottom: 58px;
+
+      flex: 1 0 50%;
+      max-width: 475px;
+    }
+
+    @media (max-width: 768px) {
+      margin: 40px 0 0;
+    }
+
+    &-descr {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+
+      width: 100%;
+      max-width: 618px;
+      margin-bottom: 40px;
+    }
+
+    &-title {
+      margin-bottom: 40px;
+
+      @media (max-width: 1024px) {
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 32px;
+        line-height: 44px;
+      }
+      & > br {
+        @media (max-width: 576px) {
+          display: none;
+        }
+      }
+    }
+
+    &-text {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+      @media (max-width: 1024px) {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+  &__img {
+    width: 100%;
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+}
+/* license*/
+.license {
+  &__wrapper {
+    margin-bottom: 113px;
+
+    display: flex;
+    align-items: center;
+    @media (max-width: 1550px) {
+      justify-content: center;
+      margin-bottom: 100px;
+    }
+    @media (max-width: 992px) {
+      margin-bottom: 80px;
+    }
+    @media (max-width: 576px) {
+      margin-bottom: 40px;
+    }
+  }
+  &__container {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 100px 0 342px;
+    @media (max-width: 1550px) {
+      margin: 0 60px 0 40px;
+      max-width: 470px;
+    }
+    @media (max-width: 992px) {
+      max-width: none;
+      margin: 0;
+      padding: 0 30px;
+    }
+    @media (max-width: 576px) {
+      padding: 0 20px;
+    }
+  }
+  &__wrap {
+    background-color: #f5f6f8;
+    width: 100%;
+    max-width: 1092px;
+
+    padding-top: 80px;
+    padding-bottom: 69px;
+    @media (max-width: 1550px) {
+      max-width: 570px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    @media (max-width: 992px) {
+      max-width: none;
+    }
+    @media (max-width: 576px) {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    &-title {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 64px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+
+      margin-bottom: 60px;
+      @media (max-width: 1550px) {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 40px;
+      }
+      @media (max-width: 576px) {
+        margin-bottom: 30px;
+      }
+    }
+    &-content {
+      width: 100%;
+      max-width: 650px;
+
+      @media (max-width: 992px) {
+        max-width: none;
+      }
+    }
+  }
+  &__count {
+    font-family: "PF Din Text Cond Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #35535f;
+    margin-bottom: 30px;
+
+    @media (max-width: 1550px) {
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 576px) {
+      margin-bottom: 15px;
+    }
+  }
+  &__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    &-content {
+      margin-bottom: 60px;
+      @media (max-width: 992px) {
+        margin-bottom: 50px;
+      }
+      @media (max-width: 576px) {
+        margin-bottom: 40px;
+      }
+    }
+    &-toggle {
+      display: flex;
+      margin-right: 30px;
+      padding: 18px 20px;
+      border: 1px solid rgba(53, 83, 95, 0.1);
+      cursor: pointer;
+
+      @media (max-width: 1550px) {
+        margin-right: 20px;
+      }
+      @media (max-width: 576px) {
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      &--active {
+        background-color: #e23f38;
+        & > svg {
+          color: #ffffff;
+        }
+        & > div {
+          color: #ffffff;
+        }
+      }
+    }
+    &-icon {
+      color: #e23f38;
+      margin-right: 13.3px;
+      pointer-events: none;
+    }
+    &-number {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+      pointer-events: none;
+    }
+    &-choice {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+      margin-top: 60px;
+      margin-bottom: 30px;
+      @media (max-width: 1550px) {
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+      @media (max-width: 576px) {
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+    }
+    &-wrap {
+      display: flex;
+      align-items: flex-start;
+
+      margin-bottom: 30px;
+      @media (max-width: 1550px) {
+        margin-bottom: 20px;
+      }
+      @media (max-width: 576px) {
+        margin-bottom: 15px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &-text {
+        margin-left: 16px;
+
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    &-label {
+      padding-top: 2px;
+
+      > input {
+        display: none;
+        &:checked + .license__tabs-radio {
+          border: none;
+          background-color: #ea3b09;
+          &::before {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    &-radio {
+      display: block;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      border: 2px solid rgba(53, 83, 95, 0.5);
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #ffffff;
+      }
+    }
+    &-text {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+      display: flex;
+      &-tooltip {
+        margin-left: 12px;
+
+        display: flex;
+        align-items: center;
+
+        cursor: pointer;
+        position: relative;
+        & > span {
+          visibility: hidden;
+          width: 120px;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px 0;
+          position: absolute;
+          z-index: 1;
+          bottom: 150%;
+          left: 50%;
+          margin-left: -60px;
+          &::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: black transparent transparent transparent;
+          }
+        }
+        &:hover span {
+          visibility: visible;
+        }
+      }
+    }
+    &-descr {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+    }
+  }
+
+  &__total {
+    &-old {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+      opacity: 0.5;
+      position: relative;
+      display: inline-block;
+
+      &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 85%;
+        height: 2px;
+        top: 17px;
+        background-color: rgba(53, 83, 95, 0.5);
+      }
+    }
+    &-new {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    &-price {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+    }
+    &-btn {
+      padding: 16px 64.5px;
+      color: #ffffff;
+      background-color: #e23f38;
+
+      font-family: "PF Din Text Cond Pro";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      cursor: pointer;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 640px;
+    height: 660px;
+    position: relative;
+    left: -70px;
+    @media (max-width: 1024px) {
+      max-width: 525px;
+      height: 540px;
+    }
+    @media (max-width: 992px) {
+      display: none;
+    }
+  }
+}
+/* ----------------- */
+
+.advantage {
+  & > .container {
+    padding: 0 95px;
+    @media (max-width: 1024px) {
+      padding: 0 40px;
+    }
+    @media (max-width: 992px) {
+      padding: 0 30px;
+    }
+    @media (max-width: 576px) {
+      padding: 0 20px;
+    }
+  }
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+    @media (max-width: 1024px) {
+      font-size: 40px;
+      line-height: 50px;
+
+      margin-bottom: 60px;
+    }
+
+    @media (max-width: 992px) {
+      text-align: center;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    & > br {
+      @media (min-width: 992px) {
+        display: none;
+      }
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-bottom: 40px;
+
+    @media (max-width: 992px) {
+      justify-content: center;
+    }
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+    width: 100%;
+    max-width: 523px;
+
+    @media (max-width: 1024px) {
+      justify-content: flex-start;
+
+      max-width: 287px;
+    }
+
+    @media (max-width: 992px) {
+      max-width: 560px;
+    }
+    &-icon {
+      margin-bottom: 30px;
+
+      @media (max-width: 1024px) {
+        margin-bottom: 20px;
+      }
+
+      &--mod {
+        @media (max-width: 1024px) {
+          margin-bottom: 34px;
+        }
+      }
+    }
+
+    &-title {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #35535f;
+
+      margin-bottom: 30px;
+
+      @media (max-width: 1024px) {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 20px;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+    &-text {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+}
+
+/* faq */
+.faq {
+  margin-top: 80px;
+  padding-top: 100px;
+  background: linear-gradient(270deg, rgba(245, 246, 248, 0.1) 0%, #f5f6f8 100%),
+    url(../images/bg-faq.png);
+  background-blend-mode: normal, multiply;
+
+  & > .container {
+    padding: 0 40px;
+    @media (max-width: 768px) {
+      padding: 0 30px;
+    }
+    @media (max-width: 576px) {
+      padding: 0 20px;
+    }
+  }
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+    @media (max-width: 576px) {
+      font-size: 32px;
+      line-height: 44px;
+      text-align: center;
+    }
+    &-descr {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: center;
+
+      color: #35535f;
+      margin-bottom: 40px;
+
+      @media (max-width: 576px) {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+  &__accordion {
+    width: 100%;
+    max-width: 1144px;
+    margin: 0 auto 20px;
+
+    padding: 24px 30px;
+    background-color: #fff;
+
+    &-title {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+      cursor: pointer;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 18px;
+      background-color: #00aa9b;
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        width: 12px;
+        height: 2px;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        width: 2px;
+        height: 12px;
+      }
+
+      &--mod {
+        background-color: #e23f38;
+        &::after {
+          display: none;
+        }
+      }
+    }
+
+    &-content {
+      display: flex;
+
+      width: 100%;
+      max-width: 1018px;
+
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        max-width: none;
+      }
+    }
+
+    .show-content {
+      max-height: 200px;
+      margin-top: 15px;
+      opacity: 1;
+      transition: all 0.4s ease-in-out;
+    }
+    &-list {
+      padding-left: 18px;
+      flex: 1 1 50%;
+      @media (max-width: 768px) {
+        margin-bottom: 17px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      @media (max-width: 576px) {
+        padding-left: 50px;
+      }
+    }
+    &-item {
+      list-style-type: disc;
+      margin-bottom: 17px;
+      &::marker {
+        color: #35535f;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &-link {
+      font-family: "PF Din Text Cond Pro";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #35535f;
+      @media (max-width: 1024px) {
+        font-family: "PF Din Text Cond Pro";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }
+}
